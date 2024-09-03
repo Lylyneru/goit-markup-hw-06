@@ -697,7 +697,6 @@ button {
 .page-footer {
     background-color: #2e2f42;
     padding: 96px 0;
-    max-width: 320px;
     margin: 0 auto;
 }
 .page-footer .container {
@@ -707,10 +706,9 @@ button {
     gap: 72px;
 }
 .footer-container {
-    max-width: 320px;
-    height: auto;
+   
 }
-.footer-logo-conteiner {
+.footer-logo-conteiner { 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -751,6 +749,7 @@ button {
     color: #fff;
     margin-bottom: 16px;
     flex-direction: row;
+    text-align: center;
 
 }
 
@@ -781,6 +780,7 @@ button {
 }
 
 .footer-link-list {
+    display: flex;
     flex-direction: row;
     align-items: center;
     width: 208px;
@@ -790,12 +790,12 @@ button {
 }
 
 .footer-form-conteiner {
-    display: flex;
     flex-direction: column;
+    align-items: center;
     width: 288px;
     height: 136px;
     border: none;
-    margin-left: auto;
+
 }
 
 .footer-form {
@@ -804,9 +804,6 @@ button {
     flex-direction: column;
     gap: 16px;
 
-}
-.subscribe-text {
-    text-align: center;
 }
 .form-input {
     outline: none;
@@ -868,36 +865,29 @@ button {
     justify-content: flex-start;
     gap: 72px 24px;
     padding-left: 108px;
-    padding-right: 108px;
-    
     }
-
-.footer-container {
-  width: calc((100% - 24px)/2);
+.footer-form-conteiner,
+.footer-logo-conteiner,
+.footer-link-conteiner {
+    display: block;
 }
+.subscribe-text,
+.social-text {
+    text-align: left;
+}
+ 
+.footer-form {
+   display: flex;
+   flex-direction: row;
 
-.footer-form-conteiner {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    width: 453px;
-    height: 80px;
-    margin-left: auto;
 }
 .form-input {
     width: 264px;
 }
 }
 
-@media screen and (min-width:768px) and (max-width: 1157px) {
-.footer-container {
-    max-width: 584px;
-    }
-}
-
 @media screen and (min-width: 1158px) {
    .page-footer {
-        min-width: 1158px;
         padding-top: 100px;
         padding-bottom: 100px;
     }
@@ -905,6 +895,8 @@ button {
     .page-footer .container {
         display: flex;
         align-items: baseline;
+        flex-wrap: nowrap;
+        height: 312px;
     }
 
     .footer-logo-conteiner {
@@ -922,6 +914,7 @@ button {
     }
 
     .footer-form {
+        flex-wrap: nowrap;
         gap: 24px;
     }
 
