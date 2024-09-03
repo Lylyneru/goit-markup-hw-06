@@ -936,7 +936,7 @@ button {
         display: flex;
         align-items: baseline;
         flex-wrap: nowrap;
-        height: 312px;
+        padding-left: 15px;
     }
 
     .footer-logo-conteiner {
@@ -1222,9 +1222,4 @@ button {
 }
 }
 
-
-
-
-
-}
 /* #endregion backdrop-modal */
