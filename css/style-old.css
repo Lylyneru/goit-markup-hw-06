@@ -13,25 +13,12 @@
 
 /* #region footer */
 
-.page-footer {
-    background-color: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.page-footer .container {
-    display: flex;
-    align-items: baseline;
-}
+
+
 .footer-logo .logo-part {
     color: #f4f4fd;
 }
-.footer-logo {
-    margin-bottom: 16px;
-    display: inline-block;
-}
-.footer-logo-conteiner {
-    margin-right: 120px;
-}
+
 .page-footer-text {
     width: 264px;
     font-weight: 400;
