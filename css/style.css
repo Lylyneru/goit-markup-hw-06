@@ -240,11 +240,51 @@ button {
     top: 24px;
     right: 24px;
 }
-
+.menu-nav-item-logo {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    color: var(--ocean);
+}
+.menu-nav-link {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+ 
+}
 .mobile-menu-nav {
     margin-bottom: auto;
 }
-
+.menu-nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 40px;
+}
+.menu-contacts {
+    font-style: normal;
+    display: block;
+}
+.menu-contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.menu-contacts-link {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--iris);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-nav-link:hover,
+.menu-nav-link:focus,
+.menu-contacts-link:hover,
+.menu-contacts-link:focus,
+.nav-link.current {
+    color: #404bbf;
+}
 @media screen and (min-width: 768px) {
     .mobile-menu {
         display: none;
