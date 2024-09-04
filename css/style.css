@@ -746,9 +746,6 @@ button {
     flex-direction: row;
     gap: 72px;
 }
-.footer-container {
-   
-}
 .footer-logo-conteiner { 
     display: flex;
     flex-wrap: wrap;
