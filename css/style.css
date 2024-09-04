@@ -52,7 +52,7 @@ button {
         clip: rect(0 0 0 0);
         overflow: hidden;
     }
-    
+
 /* common */
 .container {
     max-width: 320px;
@@ -938,6 +938,7 @@ button {
         align-items: baseline;
         flex-wrap: nowrap;
         padding-left: 15px;
+        gap: unset;
     }
 
     .footer-logo-conteiner {
