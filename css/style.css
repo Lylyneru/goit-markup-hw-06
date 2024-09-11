@@ -378,6 +378,7 @@ button {
 @media screen and (min-width: 1158px) {
 .hero-container {
     max-width: 1440px;
+    padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)),
     url(../images/people-bg.jpg);
@@ -831,7 +832,6 @@ button {
     flex-direction: column;
     align-items: center;
     width: 288px;
-    height: 136px;
     border: none;
 
 }
@@ -904,6 +904,9 @@ button {
     gap: 72px 24px;
     padding-left: 108px;
     }
+.footer-logo-conteiner {
+    width: 584рх;
+}
 .footer-form-conteiner,
 .footer-logo-conteiner,
 .footer-link-conteiner {
